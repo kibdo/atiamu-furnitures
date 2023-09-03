@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/tailwind.min.css">    <link rel="stylesheet" href="static/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link href="static/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="static/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!--<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>-->
+    
+    <title>Atiamu Furnitures</title>
+</head>
+<body class="overflow-x-hidden">
+    <div id="main" class="main">
+        <div class="navbar">
+            <div class="">
+                <div data-fixed="false" id="nav" class="nav">
+                    <div class="brand text-3xl lg:text-4xl font-medium">
+                        <a href="#header">atiamu</a>
+                    </div>
+                    <div data-show="false" id="collapse-navbar" class="collapse-navbar lg:flex lg:justify-between lg:w-full">
+                        <ul class=" nav-links-wrapper flex lg:items-center flex-col lg:flex-row">
+                            <li class="">
+                                 <a href="#catalog" class="active uppercase lg:p-2 lg:mx-3 text-sm hover:text-gray-600" >CATALOG</a>
+                            </li>
+                            <li class="">
+                                 <a href="#in-demand" class="uppercase lg:p-2 lg:mx-3 text-sm hover:text-gray-600">In Demand</a>
+                             </li>
+                             <li class="">
+                                 <a href="#best-collection" class="uppercase lg:p-2 lg:mx-3 text-sm hover:text-gray-600">Best Collection</a>
+                             </li>
+                             <li class="">
+                                 <a href="#header" class="uppercase lg:p-2 lg:mx-3 text-sm hover:text-gray-600">CONTACTS</a>
+                             </li>
+                         </ul>
+                         <ul class="navbar-nav navbar-icons d-flex flex-row ml-3 lg:ml-0">
+                            <a class="hover:text-gray-500 transition ease-out duration-100" href="#header">
+                                <li class="nav-item mr-2">
+                                    <span class="icon">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                </li>
+                            </a>
+                            <a class="hover:text-gray-500 transition ease-out duration-100" href="#header">
+                                <li class="nav-item mx-2">
+                                    <span class="icon">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </li>
+                            </a>
+                            <a class="hover:text-gray-500 transition ease-out duration-100" href="#header">
+                                <li class="nav-item mx-2">
+                                    <span class="icon text-dark">
+                                        <i class="fas fa-heart"></i>
+                                    </span>
+                                </li>
+                            </a>
+                            <a class="hover:text-gray-500 transition ease-out duration-100" href="#header">
+                                <li class="nav-item mx-2">
+                                    <span class="icon text-dark">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </span>
+                                </li>
+                            </a>
+                          </ul>
+                    </div>
+                    <div class="nav-btns-wrapper lg:text-4xl text-3xl font-medium absolute right-0 top-0 mr-3 mt-1 lg:hidden">
+                        <a data-active-state="true" class="nav-btn lg:hidden expand-btn" id="expand-btn" href="#header">
+                                <span class="icon">
+                                    <i class="bi bi-list"></i>
+                                </span>
+                           
+                        </a>
+                        <a data-active-state="false" class="nav-btn hidden" id="close-nav-btn" href="#header">
+                            <span class="icon">
+                                <i class="bi bi-x"></i>
+                            </span>
+                       
+                    </a>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+        <div id="header" class="row ">
+            <div class="col section">
+                <div class="landing-page flex items-center relative overflow-hidden">
+                    <img src="static/images/sofa.jpg" class="cover-photo absolute h-full w-full object-cover" alt="">                 
+                    <div class="overlay"></div>
+                    <div class="landing-page-inner">
+                        <div id="header-text" class="animated text-wrapper items-center lg:items-start">
+                            <h1 class="">
+                                Exclusive Affordable
+                            </h1>
+                            <h1>furnitures & accessories</h1>
+                            <div class="mt-5"></div>
+                            <a href="#header" class="action-btn-lg lg:px-12 lg:py-3 uppercase bg-gray-900 text-gray-100 text-sm lg:text-base hover:bg-black hover:text-white transition ease-in duration-150">shop now</a>
+                        </div>
+                    </div>
+                    <!--
+                        <img style="z-index: 1" src="static/images/jumbo.jpg" class="absolute object-cover w-full h-full" alt="">
+                    -->
+                    
+                </div>
+            </div>
+        </div>
+        <div id="catalog" class="row py-5">
+            <div class="shop-by-room-wrapper mx-auto">
+                <h1 class="uppercase text-2xl text-gray-900 text-center font-bold lg:mt-3">shop by room</h1>
+                <div data-animation-class="slide-up" class="animated section-60 shop-by-room grid md:grid-cols-2 md:grid-rows-6 gap-3 pt-4 lg:pt-5">
+                    <div data-animation-class="slide-up" class="animated furniture-card md:row-span-3 lg:row-span-4">
+                        <div class="overlay"></div>
+                        <div data-animation-class="fade-in" class="animated card-text">
+                            <h3 class="text-2xl  font-medium tracking-wide">living room</h3>
+                            <div class="mt-2"></div>
+                            <a href="#header" class="action-btn">Shop now</a>
+                        </div>
+                        
+                        <img src="static/images/sofa.jpg" class="h-full w-full object-cover" alt="">
+                    </div>
+                    <div class="furniture-card md:row-span-3 lg:row-span-2">
+                        <div class="overlay"></div>
+                        <div data-animation-class="fade-in" class="animated card-text">
+                            <h3 class="lg:text-xl font-medium tracking-wide">bedroom</h3>
+                            <div class="mt-2"></div>
+                            <a href="#header" class="action-btn">Shop now</a>
+                        </div>
+                        <img src="static/images/bedroom.jpeg" class="h-full w-full object-cover" alt="">
+                    </div>
+                    <div class="furniture-card md:row-span-3 lg:row-span-4">
+                        <div class="overlay"></div>
+                        <div data-animation-class="fade-in" class="animated card-text">
+                            <h3 class="lg:text-xl font-medium tracking-wide">kitchen</h3>
+                            <div class="mt-2"></div>
+                            <a href="#header" class="action-btn">Shop now</a>
+                        </div>
+                        <img src="static/images/kitchen.jpg" class="h-full w-full object-cover" alt="">
+                    </div>
+                    <div class="furniture-card md:row-span-3 lg:row-span-2">
+                        <div class="overlay"></div>
+                        <div data-animation-class="fade-in" class="animated card-text">
+                            <h3 class="lg:text-xl font-medium tracking-wide">bathroom</h3>
+                            <div class="mt-2"></div>
+                            <a href="#header" class="action-btn">Shop now</a>
+                        </div>
+                        <img src="static/images/bathroom.jpg" class="h-full w-full object-cover" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="in-demand" class="row best-sellers py-5">
+            <div class="col mx-auto ">
+                <h1 class="uppercase text-2xl text-gray-900 text-center font-bold ">best sellers</h1>
+                <div class="inner-wrapper section-60 grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-10 mt-4">
+                    <div data-animation-class="slide-up" class="animated best-seller-wrapper shadow-xl">
+                        <div class="best-seller relative">
+                            <div class="absolute lg:ml-auto icon-set mb-1 lg:mb-4 w-full flex justify-center action-icons">
+                                <ul class="flex items-center justify-center">
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-user"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                        </li>
+                                    </a>                                
+                                  </ul>
+                            </div>
+                            <img class="h-full object-cover" src="static/images/interior-10.jpeg" alt="">                        
+                        </div>
+                        <div class="product-info pt-2 pb-5 text-center flex flex-col">
+                            <h4 class="capitalize tracking-wide font-semibold ">sofa lucca</h4>
+                            <p class="font-light">$127</p>
+                        </div>
+                    </div>
+                    <div data-animation-class="slide-up" class="animated best-seller-wrapper shadow-xl">
+                        <div class="best-seller relative">
+                            <div class="absolute lg:ml-auto icon-set mb-1 lg:mb-4 w-full flex justify-center action-icons">
+                                <ul class="flex items-center justify-center">
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-user"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                        </li>
+                                    </a>                                
+                                  </ul>
+                            </div>
+                            <img class="h-full object-cover" src="static/imageS/interior-4.jpeg" alt="">                        
+                        </div>
+                        <div class="product-info pt-2 pb-5 text-center flex flex-col">
+                            <h4 class="capitalize tracking-wide font-semibold">Table exposure</h4>
+                            <p class="font-light">$657</p>
+                        </div>
+                    </div>
+                    <div data-animation-class="slide-up" class="animated best-seller-wrapper shadow-xl">
+                        <div class="best-seller relative">
+                            <div class="absolute lg:ml-auto icon-set mb-1 lg:mb-4 w-full flex justify-center action-icons">
+                                <ul class="flex items-center justify-center">
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-user"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                        </li>
+                                    </a>                                
+                                  </ul>
+                            </div>
+                            <img class="h-full object-cover" src="static/images/interior-9.jpeg" alt="">                        
+                        </div>
+                        <div class="product-info pt-2 pb-5 text-center flex flex-col">
+                            <h4 class="capitalize tracking-wide font-semibold">vass amas</h4>
+                            <p class="font-light">$320</p>
+                        </div>
+                    </div>
+                    <div data-animation-class="slide-up" class="animated best-seller-wrapper shadow-xl">
+                        <div class="best-seller relative">
+                            <div class="absolute lg:ml-auto icon-set mb-1 lg:mb-4 w-full flex justify-center action-icons">
+                                <ul class="flex items-center justify-center">
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-user"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                        </li>
+                                    </a>                                
+                                  </ul>
+                            </div>
+                            <img class="h-full object-cover" src="static/images/interior-5.jpeg" alt="">                        
+                        </div>
+                        <div class="product-info pt-2 pb-5 text-center flex flex-col">
+                            <h4 class="capitalize tracking-wide font-semibold">milk candle</h4>
+                            <p class="font-light">$232</p>
+                        </div>
+                    </div>
+                    <div data-animation-class="slide-up" class="animated best-seller-wrapper shadow-xl">
+                        <div class="best-seller relative">
+                            <div class="absolute lg:ml-auto icon-set mb-1 lg:mb-4 w-full flex justify-center action-icons">
+                                <ul class="flex items-center justify-center">
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-user"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                        </li>
+                                    </a>                                
+                                  </ul>
+                            </div>
+                            <img class="h-full object-cover" src="static/images/interior-7.jpeg" alt="">                        
+                        </div>
+                        <div class="product-info pt-2 pb-5 text-center flex flex-col">
+                            <h4 class="capitalize tracking-wide font-semibold">small wood chair</h4>
+                            <p class="font-light">$120</p>
+                        </div>
+                    </div>
+                    <div data-animation-class="slide-up" class="animated best-seller-wrapper shadow-xl">
+                        <div class="best-seller relative">
+                            <div class="absolute lg:ml-auto icon-set mb-1 lg:mb-4 w-full flex justify-center action-icons">
+                                <ul class="flex items-center justify-center">
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="mr-2 p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-user"></i>
+                                            </span>
+                                        </li>
+                                    </a>
+                                    <a class="p-2 text-xs bg-gray-900 text-gray-100 rounded hover:text-gray-900 hover:bg-gray-100 transition ease-in duration-150" href="#header">
+                                        <li class="nav-item">
+                                            <span class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                        </li>
+                                    </a>                                
+                                  </ul>
+                            </div>
+                            <img class="h-full object-cover" src="static/images/interior-11.jpeg" alt="">                        
+                        </div>
+                        <div class="product-info pt-2 pb-5 text-center flex flex-col">
+                            <h4 class="capitalize tracking-wide font-semibold">armchair dublin</h4>
+                            <p class="font-light">$680</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="best-collection" class=" row py-3 lg:py-16 py-5">
+            <div class="col jumbo-cards-wrapper">
+                <h1 class="uppercase text-2xl text-gray-900 text-center font-bold ">Best Collection</h1>
+                <div class=" grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 md:gap-10">
+                    <div data-animation-class="slide-up" class="animated jumbo-card overflow-hidden flex relative">
+                        <div data-animation-class="fade-in" class="animated info-wrapper absolute">
+                            <h5 class="capitalize tet-sm lg:text-lg">New collection</h5>
+                            <h3 class="mb-4 uppercase font-semibold text-lg lg:text-xl my-2">half&half chairs</h3>
+                            <a href="#header" class="action-btn uppercase">see now</a>
+                        </div>
+                        <div class="overlay"></div>
+                        <img src="static/images/interior-4.jpeg" class="object-cover" alt="">
+                    </div>
+                    <div data-animation-class="slide-up" data-animation-delay="0.3" class="animated jumbo-card overflow-hidden flex relative">
+                        <div data-animation-class="fade-in" class="animated info-wrapper absolute">
+                            <h5 class="capitalize tet-sm lg:text-lg">trends</h5>
+                            <h3 class="mb-4 uppercase font-semibold text-lg lg:text-xl my-2">warm essentials</h3>
+                            <a href="#header" class="action-btn uppercase">see now</a>
+                        </div>
+                        <div class="overlay"></div>
+                        <img src="static/images/interior-11.jpeg" class="object-cover" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bg-gray-900 text-gray-200 p-3 lg:px-5 lg:py-4 flex flex-col justify-around lg:flex-row lg:items-center">
+                    <div>
+                        <h1 class="text-4xl p-0 font-semibold text-white">
+                            atiamu
+                        </h1>
+                        <div class="mt-3 text-sm">
+                            156 E 2nd St, New York, NY 10009, United States
+                        </div>
+                        <div class="mt-2 text-sm">atiamunetwork@gmail.com</div>
+                        <div class="mt-2 text-sm">+2348147751998</div>
+                        <ul class="flex mt-2">
+                            <a class="mr-3 text-xs hover:text-white transition ease-in duration-150" href="#header">
+                                <li class="nav-item">
+                                    <span class="icon ">
+                                        <i class="fas fa-search"></i>
+                                    </span>
+                                </li>
+                            </a>
+                            <a class="mr-3 text-xs hover:text-white transition ease-in duration-150" href="#header">
+                                <li class="nav-item">
+                                    <span class="icon">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </li>
+                            </a>
+                            <a class="mr-3 text-xs hover:text-white transition ease-in duration-150" href="#header">
+                                <li class="nav-item">
+                                    <span class="icon">
+                                        <i class="fas fa-heart"></i>
+                                    </span>
+                                </li>
+                            </a>
+                            <a href="#header" class="text-xs hover:text-white transition ease-in duration-150">
+                                <li class="nav-item">
+                                    <span class="icon">
+                                        <i class="fas fa-heart"></i>
+                                    </span>
+                                </li>
+                            </a> 
+                        </ul>
+                    </div>
+                    <div class="lg:ml-24 hidden lg:block">
+                        <ul>
+                            <li class="my-2">
+                                <a href="#header" class="uppercase text-xs hover:text-white transition ease-in duration-150 hover:underline">living room</a>
+                            </li>
+                            <li class="my-2">
+                                <a href="#header" class="uppercase text-xs hover:text-white transition ease-in duration-150 hover:underline">bathroom</a>
+                            </li>
+                            <li class="my-2">
+                                <a href="#header" class="uppercase text-xs hover:text-white transition ease-in duration-150 hover:underline">kitchen</a>
+                            </li>
+                            <li class="my-2">
+                                <a href="#header" class="uppercase text-xs hover:text-white transition ease-in duration-150 hover:underline">bedroom</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:ml-24">
+                        <ul>
+                            <li class="my-2">
+                                <a href="#header" class="uppercase text-xs hover:text-white transition ease-in duration-150 hover:underline">shipping</a>
+                            </li>
+                            <li class="my-2">
+                                <a href="#header" class="uppercase text-xs hover:text-white transition ease-in duration-150 hover:underline">payments</a>
+                            </li>
+                            <li class="my-2">
+                                <a href="#header" class="uppercase text-xs hover:text-white transition ease-in duration-150 hover:underline">privacy policy</a>
+                            </li>
+                            <li class="my-2">
+                                <a href="#header" class="uppercase text-xs hover:text-white transition ease-in duration-150 hover:underline">q&a</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="text-center bg-gray-900 text-white capitalize lg:py-3 py-2 ">
+                    @Atiamu Network Enterprise
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="static/js/main.js"></script>
+</body>
+</html>
